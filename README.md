@@ -15,6 +15,11 @@ Glance at this:
 
 <img src="https://user-images.githubusercontent.com/29680165/121817635-df5a8b80-cc82-11eb-9af5-974cb1a98e30.png" alt="Output comparison of cl.exe and Pretty-Cl" width="700" />
 
+## Requirements
+
+* Powershell 7
+* (Windows Terminal) *For Emoji support. Coloring still works in the regular Powershell 7 console.*
+
 ## Installation
 This is easiest to install as a module. To install, pull this directory to a folder in one of your Modules folders.
 Powershell treats a couple of folders as "Module folders". To list these folders, print the **$env:PSModulePath** environment variable.
