@@ -13,7 +13,7 @@ Now your cl.exe output is easier to read, particularly at a glance.
 
 Glance at this:
 
-<img src="https://user-images.githubusercontent.com/29680165/121817635-df5a8b80-cc82-11eb-9af5-974cb1a98e30.png" alt="Output comparison of cl.exe and Pretty-Cl" width="700" />
+<img src="https://user-images.githubusercontent.com/29680165/121817871-49bffb80-cc84-11eb-9ddc-f350532c0725.png" alt="Output comparison of cl.exe and Pretty-Cl" width="700" />
 
 ## Requirements
 
