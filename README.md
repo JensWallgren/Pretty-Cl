@@ -8,11 +8,7 @@ You're compiling you programs with MSVC's cl.exe. The output is turse, unstructu
 ### What?
 PrettyCL is a small Powershell function that wraps the cl.exe call. It processes the output and adds some basic colors and (emoji) icons. You can probably write you own version without much effort. But *maybe* you don't enjoy writing Powershell or Regex expressions.
 
-### And?
-Now your cl.exe output is easier to read, particularly at a glance.
-
-Glance at this:
-
+## Demo
 <img src="https://user-images.githubusercontent.com/29680165/121817871-49bffb80-cc84-11eb-9ddc-f350532c0725.png" alt="Output comparison of cl.exe and Pretty-Cl" width="700" />
 
 ## Requirements
@@ -21,7 +17,9 @@ Glance at this:
 * (Windows Terminal) *For Emoji support. Coloring still works in the regular Powershell 7 console.*
 
 ## Installation
-This is easiest to install as a module. To install, pull this directory to a folder in one of your Modules folders.
-Powershell treats a couple of folders as "Module folders". To list these folders, print the **$env:PSModulePath** environment variable.
+Install as a Powershell module.
+
+1. **Locate your modules folders** - *To list these folders, print the **$env:PSModulePath** environment variable from a powershell session.*
+2. **Pull this directory to one of your Modules folders** - *The ps1m file should be in a subfolder of your module folder.*
 
 <img src="https://user-images.githubusercontent.com/29680165/121817441-c9989680-cc81-11eb-96aa-f921335b1510.gif" alt=".gif showing Pretty-Cl installed as a library" />
