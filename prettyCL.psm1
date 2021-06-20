@@ -46,7 +46,7 @@ function Pretty-Cl {
         #      "../file.h(210)
         $PathRegex = '(\w:)?[\w\\\/. \(\)]+\([0-9]+\)'
 
-        if ($_ -match "^$PathRegex ?: error") {
+        if ($_ -match "^$PathRegex ?: (fatal )?error") {
             Write-StyledOutput " `u{274c}  $_" -Foreground 203
         }
         elseif ($_ -match "^$PathRegex ?: warning") {
