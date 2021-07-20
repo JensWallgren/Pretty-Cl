@@ -6,7 +6,7 @@ Readable, formatted output for the MSVC compiler (and linker - cl.exe)
 You're compiling you programs with MSVC's cl.exe. The output is turse, unstructured and hard to read. It's not the end of the world, but you deserve better.
 
 ### What?
-Pretty-Cl is a small Powershell function that wraps the cl.exe call. It processes the output and adds some basic colors and (emoji) icons. You can probably write you own version without much effort. But you *might* not enjoy writing Powershell or Regex expressions.
+Pretty-Cl is a small Powershell function that wraps the cl.exe call. It adds some basic colors and (emoji) icons to the cl.exe output. You can probably write you own version without much effort. But you *might* not enjoy writing Powershell or Regex expressions.
 
 ## Demo
 <img src="https://user-images.githubusercontent.com/29680165/121817871-49bffb80-cc84-11eb-9ddc-f350532c0725.png" alt="Output comparison of cl.exe and Pretty-Cl" width="700" />
