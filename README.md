@@ -1,4 +1,4 @@
-# PrettyCL
+# Pretty-Cl
 Readable, formatted output for the MSVC compiler (and linker - cl.exe)
 
 
