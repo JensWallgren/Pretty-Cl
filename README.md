@@ -27,6 +27,6 @@ Install as a Powershell module.
 2. **Pull this directory to one of your Modules folders.**
 
     - *Choose any one of your module folders*
-    - *File structure:* **{Module folder}/{PrettyCL folder}/{ps1m file}**
+    - *In the end, you're looking to place the .ps1m file as follows:* **{Module folder}/{PrettyCL folder}/{ps1m file}**
 
 <img src="https://user-images.githubusercontent.com/29680165/121817441-c9989680-cc81-11eb-96aa-f921335b1510.gif" alt=".gif showing Pretty-Cl installed as a library" />
