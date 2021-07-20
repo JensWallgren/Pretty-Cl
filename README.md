@@ -19,7 +19,14 @@ PrettyCL is a small Powershell function that wraps the cl.exe call. It processes
 ## Installation
 Install as a Powershell module.
 
-1. **Locate your modules folders** - *To list these folders, print the **$env:PSModulePath** environment variable from a powershell session.*
-2. **Pull this directory to one of your Modules folders.** - *Module folder -> PrettyCL folder -> ps1m file*
+1. **Locate your module folders**
+
+    - *You have multiple module folder* 
+    - *To list these folders, type* **$env:PSModulePath** *into a powershell session*
+
+2. **Pull this directory to one of your Modules folders.**
+
+    - *Choose any one of your module folders*
+    - *File structure:* **{Module folder}/{PrettyCL folder}/{ps1m file}**
 
 <img src="https://user-images.githubusercontent.com/29680165/121817441-c9989680-cc81-11eb-96aa-f921335b1510.gif" alt=".gif showing Pretty-Cl installed as a library" />
